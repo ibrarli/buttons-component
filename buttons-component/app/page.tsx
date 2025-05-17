@@ -2,6 +2,7 @@ import BorderGradientButton from "./components/BorderGradientButton";
 import ShinyHoverButton from "./components/ShinyHoverButton";
 import FoldedCornerButton from "./components/FoldedCornerButton";
 import SquareDeleteButton from "./components/SquareDeleteButton";
+import SocialTopHoverButton from "./components/SocialTopHoverButton";
 
 export default function Home() {
   return (
@@ -17,6 +18,11 @@ export default function Home() {
       </div>
       <div className="m-5"> 4.
         <SquareDeleteButton />
+      </div>
+      <div className="m-5"> 5.
+        <div className="pt-5">
+          <SocialTopHoverButton />
+        </div>
       </div>
     </div>
   );
