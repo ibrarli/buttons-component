@@ -4,6 +4,7 @@ import FoldedCornerButton from "./components/FoldedCornerButton";
 import SquareDeleteButton from "./components/SquareDeleteButton";
 import SocialTopHoverButton from "./components/SocialTopHoverButton";
 import TopSliderButton from "./components/TopSliderButton";
+import HoverPulseButton from "./components/HoverPulseButton";
 
 export default function Home() {
   return (
@@ -27,6 +28,9 @@ export default function Home() {
       </div>
       <div className="m-5"> 6.
         <TopSliderButton />
+      </div>
+      <div className="m-5"> 7.
+        <HoverPulseButton />
       </div>
     </div>
   );
